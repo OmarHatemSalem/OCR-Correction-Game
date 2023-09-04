@@ -1,0 +1,84 @@
+.gameplay-container {
+    background-image: url("bb10.gif");
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+  }
+  
+
+  .score {
+    font-size: 60px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    color: #000000;
+  }
+  
+  .timer {
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  .screenshot {
+    width: 1000px; /* Set the desired width of the box */
+    height: 300px; /* Set the desired height of the box */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .completion-message {
+    font-size: 35px; /* You can adjust the font size as needed */
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 30%;
+
+    padding: 10px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: right; /* Add this line to right-indent the input field */
+  }
+  
+  .button-container {
+    display: flex;
+  }
+  
+  .gameplay-button {
+    padding: 20px 35px;
+    font-size: 30px;
+    background-color: #000000; /* Black color */
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-right: 30px;
+    margin-bottom: 0px;
+  }
+  
+  .gameplay-button:hover {
+    background-color: #3b3c3c;
+  }
+  
+  .footer {
+    color: #000000;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
